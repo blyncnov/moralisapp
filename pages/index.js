@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Head from "next/head";
 
 export default function Home() {
-  
   useEffect(() => {
     if (window.etherum) {
       alert("Metamask isn't installed. Please install Metamask to continue.");
